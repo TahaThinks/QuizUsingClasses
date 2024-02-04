@@ -6,4 +6,4 @@ class QuizBrain:
 
     def next_question(self):
         current_question = self.question_list[self.question_number]
-        received_answer = input(f"Q.{self.question_number} {current_question} (True/False)? ").lower()
+        received_answer = input(f"Q.{self.question_number} {current_question.text} (True/False)? ").lower()
